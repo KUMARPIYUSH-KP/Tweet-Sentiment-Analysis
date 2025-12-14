@@ -6,8 +6,8 @@ from decimal import Decimal
 # ============================================
 # ENTER YOUR AWS CREDENTIALS HERE
 # ============================================
-AWS_ACCESS_KEY_ID = 'AKIAZGUHSXO4KUEOOCQU'
-AWS_SECRET_ACCESS_KEY = 'IeJ8NBIo9l3zVWvGtn9ZwRvUM3ygAqOIPgb9ysZd'
+AWS_ACCESS_KEY_ID = 'qwertyuiopasdfghjkl'
+AWS_SECRET_ACCESS_KEY = 'your own access key'
 AWS_REGION = 'ap-south-1'
 TABLE_NAME = 'TweetsDatabase'
 # ============================================
@@ -124,4 +124,5 @@ if __name__ == "__main__":
     print("="*60)
     print()
     
+
     import_tweets_to_dynamodb(csv_filename)
